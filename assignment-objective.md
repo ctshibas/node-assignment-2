@@ -4,7 +4,7 @@
 * Install express _(nodemon optional)_
 
 ```zsh
-$ npm install --save express
+foo@bar:~$ npm install --save express
 ```
 * Create express app which funnels requests through 2 middleware functions that log to console & return a response
 
