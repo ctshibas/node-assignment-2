@@ -15,9 +15,12 @@ const app = express();
 // second step: create 2 middleware functions that will log
 app.use((req, res, next) => {
     console.log("I'm in this first middleware");
+    //next();
 });
 
 app.use((req, res, next) => {
     console.log("I'm in this second middleware and check your page for a response");
     res.send('<h1>Welcome to the dummy page</h1>');
 });
+
+app.listen(PORT);
