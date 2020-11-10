@@ -1,0 +1,33 @@
+{
+  "name": "assignment-2",
+  "version": "1.0.0",
+  "description": "Node.js - second assignment, express middleware",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ctshibas/node-assignment-2.git"
+  },
+  "keywords": [
+    "Node.js",
+    "express",
+    "middleware",
+    "routes",
+    "request",
+    "response",
+    "functions"
+  ],
+  "author": "Corneille Tshibasu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ctshibas/node-assignment-2/issues"
+  },
+  "homepage": "https://github.com/ctshibas/node-assignment-2#readme"
+}
